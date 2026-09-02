@@ -1,0 +1,86 @@
+[
+  {
+    "front": "Which four security responsibilities always remain with the customer regardless of the cloud deployment model (SaaS, PaaS, or IaaS)?",
+    "back": "The customer is always responsible for data, accounts, endpoints, and access management."
+  },
+  {
+    "front": "How do customer security responsibilities change when moving from Infrastructure as a Service (IaaS) to Software as a Service (SaaS)?",
+    "back": "The customer relinquishes management of the OS and network controls, focusing only on data, endpoints, and identities."
+  },
+  {
+    "front": "What is the primary difference in trust assumptions between traditional perimeter-based security and the Zero Trust model?",
+    "back": "Traditional security assumes internal network trust, while Zero Trust assumes a breach and verifies every access request."
+  },
+  {
+    "front": "What are the three guiding principles of the Zero Trust security model?",
+    "back": "The three principles are verify explicitly, use least privileged access, and assume breach."
+  },
+  {
+    "front": "Which data points must be continuously validated for each access request under the Zero Trust principle of 'verify explicitly'?",
+    "back": "Identity, location, device health, service workload, data classification, and anomalies must be validated."
+  },
+  {
+    "front": "How does the 'least privileged access' principle limit security exposure in a Zero Trust environment?",
+    "back": "It provides the minimum necessary permissions using Just-In-Time (JIT) and Just-Enough-Access (JEA) tools."
+  },
+  {
+    "front": "Which architectural techniques are used to limit the blast radius under the Zero Trust 'assume breach' principle?",
+    "back": "Architectures use network micro-segmentation, end-to-end encryption, and real-time threat analytics."
+  },
+  {
+    "front": "What are the six foundational pillars of a complete Zero Trust security architecture?",
+    "back": "The pillars are identities, devices, applications, data, infrastructure, and networks."
+  },
+  {
+    "front": "What is the primary objective of employing a 'defense in depth' strategy?",
+    "back": "The objective is to provide multiple independent layers of security controls to slow down an attack."
+  },
+  {
+    "front": "How do Defense in Depth and Zero Trust differ in their conceptual approach to security?",
+    "back": "Defense in Depth focuses on layered defensive mechanisms, whereas Zero Trust focuses on verifying every individual access request."
+  },
+  {
+    "front": "What is the key difference between symmetric and asymmetric encryption regarding key usage?",
+    "back": "Symmetric encryption uses a single shared key, while asymmetric encryption uses a mathematically paired public and private key."
+  },
+  {
+    "front": "In asymmetric cryptography, which key is used by a sender to digitally sign a document?",
+    "back": "The signer uses their private key to create a digital signature."
+  },
+  {
+    "front": "The process of converting input into a unique, fixed-length value that is irreversible is known as _____.",
+    "back": "Hashing"
+  },
+  {
+    "front": "Why is hashing considered more secure than encryption for the storage of user passwords?",
+    "back": "Hashing is a one-way process that cannot be reversed to reveal the original password if the database is stolen."
+  },
+  {
+    "front": "Within the GRC framework, what is the specific purpose of the 'Compliance' domain?",
+    "back": "Compliance ensures that an organization's operations adhere to legal, regulatory, and organizational standards."
+  },
+  {
+    "front": "Why is identity now considered the primary security perimeter in cloud-first environments?",
+    "back": "Authenticating identity is the only consistent security boundary for users accessing services from any location or device."
+  },
+  {
+    "front": "What is the fundamental difference between authentication (AuthN) and authorization (AuthZ)?",
+    "back": "Authentication verifies who an identity is, while authorization determines what that identity is allowed to do."
+  },
+  {
+    "front": "How does an Identity Provider (IdP) differ from a Directory Service?",
+    "back": "An IdP performs authentication and issues security tokens, whereas a Directory Service stores and organizes network objects."
+  },
+  {
+    "front": "What is the main benefit of identity federation for users collaborating across different organizations?",
+    "back": "It allows users to access resources in external domains using their existing corporate credentials."
+  },
+  {
+    "front": "In terms of scope, how does federation differ from simple authentication?",
+    "back": "Authentication verifies credentials within a domain, while federation extends trust between distinct domains for cross-boundary access."
+  },
+  {
+    "front": "Which component of the CIA Triad ensures that data remains correct and has not been modified by unauthorized users?",
+    "back": "Integrity"
+  }
+]

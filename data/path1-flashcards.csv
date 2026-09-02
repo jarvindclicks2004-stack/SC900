@@ -1,0 +1,21 @@
+"Which four security responsibilities always remain with the customer regardless of the cloud deployment model (SaaS, PaaS, or IaaS)?","The customer is always responsible for data, accounts, endpoints, and access management."
+How do customer security responsibilities change when moving from Infrastructure as a Service (IaaS) to Software as a Service (SaaS)?,"The customer relinquishes management of the OS and network controls, focusing only on data, endpoints, and identities."
+What is the primary difference in trust assumptions between traditional perimeter-based security and the Zero Trust model?,"Traditional security assumes internal network trust, while Zero Trust assumes a breach and verifies every access request."
+What are the three guiding principles of the Zero Trust security model?,"The three principles are verify explicitly, use least privileged access, and assume breach."
+Which data points must be continuously validated for each access request under the Zero Trust principle of 'verify explicitly'?,"Identity, location, device health, service workload, data classification, and anomalies must be validated."
+How does the 'least privileged access' principle limit security exposure in a Zero Trust environment?,It provides the minimum necessary permissions using Just-In-Time (JIT) and Just-Enough-Access (JEA) tools.
+Which architectural techniques are used to limit the blast radius under the Zero Trust 'assume breach' principle?,"Architectures use network micro-segmentation, end-to-end encryption, and real-time threat analytics."
+What are the six foundational pillars of a complete Zero Trust security architecture?,"The pillars are identities, devices, applications, data, infrastructure, and networks."
+What is the primary objective of employing a 'defense in depth' strategy?,The objective is to provide multiple independent layers of security controls to slow down an attack.
+How do Defense in Depth and Zero Trust differ in their conceptual approach to security?,"Defense in Depth focuses on layered defensive mechanisms, whereas Zero Trust focuses on verifying every individual access request."
+What is the key difference between symmetric and asymmetric encryption regarding key usage?,"Symmetric encryption uses a single shared key, while asymmetric encryption uses a mathematically paired public and private key."
+"In asymmetric cryptography, which key is used by a sender to digitally sign a document?",The signer uses their private key to create a digital signature.
+"The process of converting input into a unique, fixed-length value that is irreversible is known as _____.",Hashing
+Why is hashing considered more secure than encryption for the storage of user passwords?,Hashing is a one-way process that cannot be reversed to reveal the original password if the database is stolen.
+"Within the GRC framework, what is the specific purpose of the 'Compliance' domain?","Compliance ensures that an organization's operations adhere to legal, regulatory, and organizational standards."
+Why is identity now considered the primary security perimeter in cloud-first environments?,Authenticating identity is the only consistent security boundary for users accessing services from any location or device.
+What is the fundamental difference between authentication (AuthN) and authorization (AuthZ)?,"Authentication verifies who an identity is, while authorization determines what that identity is allowed to do."
+How does an Identity Provider (IdP) differ from a Directory Service?,"An IdP performs authentication and issues security tokens, whereas a Directory Service stores and organizes network objects."
+What is the main benefit of identity federation for users collaborating across different organizations?,It allows users to access resources in external domains using their existing corporate credentials.
+"In terms of scope, how does federation differ from simple authentication?","Authentication verifies credentials within a domain, while federation extends trust between distinct domains for cross-boundary access."
+Which component of the CIA Triad ensures that data remains correct and has not been modified by unauthorized users?,Integrity

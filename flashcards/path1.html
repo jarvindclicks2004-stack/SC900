@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SC-900 Path 1 Flashcards</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <nav class="nav-bar">
+    <div class="container">
+      <a href="../index.html" class="site-title">SC-900 Study Hub</a>
+      <div class="nav-links">
+        <a href="../quiz/path1.html">Quiz</a>
+        <a href="path1.html" class="active">Flashcards</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <div class="flashcard-container">
+      <h1>Path 1 Flashcards</h1>
+      <p class="text-muted">Security, compliance, and identity concepts</p>
+
+      <div class="flashcard-controls-top">
+        <span class="flashcard-progress" id="flashcard-progress">1 / 21</span>
+        <div class="flashcard-actions">
+          <button type="button" class="btn btn-secondary btn-sm" id="btn-shuffle">Shuffle</button>
+          <button type="button" class="btn btn-secondary btn-sm" id="btn-restart">Restart</button>
+        </div>
+      </div>
+
+      <div class="flashcard-wrapper">
+        <div class="flashcard" id="flashcard">
+          <div class="flashcard-front">
+            <div class="flashcard-badge">Question</div>
+            <div class="flashcard-content" id="flashcard-front-content">Loading...</div>
+            <div class="flashcard-hint" id="flip-hint">Click card or press Space to flip</div>
+          </div>
+          <div class="flashcard-back">
+            <div class="flashcard-badge">Answer</div>
+            <div class="flashcard-content" id="flashcard-back-content"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flashcard-nav">
+        <button type="button" class="btn btn-secondary" id="btn-prev" disabled>&larr; Previous</button>
+        <button type="button" class="btn btn-secondary" id="btn-next">Next &rarr;</button>
+      </div>
+
+      <div class="keyboard-hint">
+        <p><strong>Keyboard shortcuts:</strong>
+          <kbd>Space</kbd> / <kbd>Enter</kbd> Flip &middot;
+          <kbd>&larr;</kbd> Previous &middot;
+          <kbd>&rarr;</kbd> Next &middot;
+          <kbd>S</kbd> Shuffle &middot;
+          <kbd>R</kbd> Restart
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="text-muted">SC-900 Path 1 Study Hub</p>
+    </div>
+  </footer>
+
+  <script src="../js/flashcards.js"></script>
+</body>
+</html>

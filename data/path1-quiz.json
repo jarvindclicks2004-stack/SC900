@@ -1,0 +1,277 @@
+[
+  {
+    "q": "Under the shared responsibility model, as a customer moves from IaaS toward SaaS, what generally happens to the provider's responsibilities?",
+    "o": [
+      "The provider manages less of the technology stack",
+      "The provider manages more of the underlying technology stack",
+      "The customer becomes responsible for the physical datacenter",
+      "The customer stops being responsible for data and identities"
+    ],
+    "a": 1,
+    "e": "The NotebookLM summary describes IaaS/PaaS/SaaS as shifting more underlying-stack responsibility to the provider while the customer retains important responsibilities such as data, accounts, and identities."
+  },
+  {
+    "q": "What is the main purpose of defense in depth?",
+    "o": [
+      "To eliminate the need for authentication",
+      "To use multiple layers of security controls so an attack is slowed or stopped",
+      "To trust users inside the corporate network",
+      "To replace all security controls with encryption"
+    ],
+    "a": 1,
+    "e": "The source describes defense in depth as multi-layered security mechanisms that make an attack harder and can slow it down."
+  },
+  {
+    "q": "Which statement best describes the Zero Trust security model?",
+    "o": [
+      "Trust users automatically when they are on the internal network",
+      "Assume breach and verify access rather than relying on network location",
+      "Allow unrestricted access after the first successful login",
+      "Trust devices but not identities"
+    ],
+    "a": 1,
+    "e": "The source describes Zero Trust around verify explicitly, least-privileged access, and assume breach."
+  },
+  {
+    "q": "Which is NOT one of the three Zero Trust principles listed in the source?",
+    "o": [
+      "Verify explicitly",
+      "Use least privileged access",
+      "Assume breach",
+      "Trust the internal network"
+    ],
+    "a": 3,
+    "e": "The three listed principles are verify explicitly, use least privileged access, and assume breach."
+  },
+  {
+    "q": "Which set contains the six Zero Trust pillars listed in the source?",
+    "o": [
+      "Users, passwords, firewalls, VPNs, servers, backups",
+      "Identities, devices, applications, data, infrastructure, networks",
+      "Email, browsers, DNS, DHCP, storage, printers",
+      "Policies, audits, encryption, hashing, logging, certificates"
+    ],
+    "a": 1,
+    "e": "The source lists identities, devices, applications, data, infrastructure, and networks as the six pillars."
+  },
+  {
+    "q": "Why is identity described as a modern security perimeter?",
+    "o": [
+      "Because identities remove the need for networks",
+      "Because identity-based controls can provide a security boundary across locations and devices",
+      "Because only physical identities matter in cloud environments",
+      "Because identity replaces authorization"
+    ],
+    "a": 1,
+    "e": "The source explains that authenticating identity provides a consistent security boundary across different locations and devices."
+  },
+  {
+    "q": "What does authentication determine?",
+    "o": [
+      "What resources a user is allowed to change",
+      "Who or what an entity is",
+      "How data is encrypted",
+      "Which compliance regulation applies"
+    ],
+    "a": 1,
+    "e": "Authentication verifies identity. Authorization determines what that authenticated identity is allowed to do."
+  },
+  {
+    "q": "What does authorization determine?",
+    "o": [
+      "Whether an identity is genuine",
+      "What an authenticated identity is permitted to access or do",
+      "Whether data has been hashed",
+      "Which identity provider issued a token"
+    ],
+    "a": 1,
+    "e": "Authorization is the access decision made after identity has been established."
+  },
+  {
+    "q": "Which statement correctly compares authentication and authorization?",
+    "o": [
+      "Authentication decides permissions; authorization proves identity",
+      "Authentication proves identity; authorization determines permissions",
+      "They are two names for the same process",
+      "Authorization always occurs before authentication"
+    ],
+    "a": 1,
+    "e": "The source explicitly distinguishes AuthN as proving who someone is and AuthZ as determining their access level."
+  },
+  {
+    "q": "What is the primary role of an identity provider (IdP)?",
+    "o": [
+      "Store every file used by an organization",
+      "Authenticate identities and issue security tokens or assertions",
+      "Provide physical network cabling",
+      "Perform password hashing only"
+    ],
+    "a": 1,
+    "e": "The source describes an IdP as an authentication authority that can issue security tokens."
+  },
+  {
+    "q": "What is a directory service primarily used for?",
+    "o": [
+      "Storing and organizing information about network objects and identities",
+      "Encrypting all application traffic",
+      "Replacing every firewall",
+      "Generating random passwords"
+    ],
+    "a": 0,
+    "e": "The source distinguishes directory services from IdPs by describing directory services as stores that organize network objects."
+  },
+  {
+    "q": "Which technology is specifically identified in the source as an example of a directory service?",
+    "o": [
+      "Active Directory Domain Services (AD DS)",
+      "A web browser",
+      "A hardware firewall",
+      "A hashing algorithm"
+    ],
+    "a": 0,
+    "e": "The NotebookLM summary explicitly identifies AD DS as a directory-service example."
+  },
+  {
+    "q": "What is identity federation?",
+    "o": [
+      "Using one local password database for every application",
+      "Establishing trust between distinct identity domains so users can access external resources with existing credentials",
+      "Encrypting a directory with a private key",
+      "Deleting duplicate user accounts"
+    ],
+    "a": 1,
+    "e": "The source describes federation as extending trust between distinct domains, allowing users to use existing corporate credentials with external resources."
+  },
+  {
+    "q": "What is a key benefit of identity federation?",
+    "o": [
+      "Users must create a new identity for every trusted organization",
+      "Users can access resources in another domain using their existing organizational identity",
+      "It removes the need for authorization",
+      "It converts hashes back into passwords"
+    ],
+    "a": 1,
+    "e": "Federation lets separate domains establish trust so an existing identity can be used across that trust boundary."
+  },
+  {
+    "q": "Which statement best distinguishes federation from ordinary authentication within one domain?",
+    "o": [
+      "Federation extends trust across distinct domains",
+      "Federation means no authentication occurs",
+      "Ordinary authentication always uses federation",
+      "They are exactly the same concept"
+    ],
+    "a": 0,
+    "e": "The source contrasts authentication within a domain with federation, which extends trust between distinct domains."
+  },
+  {
+    "q": "What is the main difference between symmetric and asymmetric encryption?",
+    "o": [
+      "Symmetric encryption uses one shared key; asymmetric cryptography uses a mathematically related public/private key pair",
+      "Symmetric encryption uses no keys; asymmetric uses one key",
+      "Both always use exactly two shared passwords",
+      "Asymmetric encryption cannot provide confidentiality"
+    ],
+    "a": 0,
+    "e": "The flashcard material states that symmetric encryption uses a single shared key, while asymmetric cryptography uses a public/private pair."
+  },
+  {
+    "q": "For confidentiality in asymmetric encryption, which key is normally used by a sender to encrypt data for a recipient?",
+    "o": [
+      "The recipient's public key",
+      "The recipient's private key",
+      "The sender's public key only",
+      "A hash value"
+    ],
+    "a": 0,
+    "e": "The source correction states that data encrypted with a recipient's public key can be decrypted with the corresponding private key."
+  },
+  {
+    "q": "Which key is used to create a digital signature in the asymmetric-cryptography model described by the source?",
+    "o": [
+      "The signer's private key",
+      "The signer's public key",
+      "The recipient's private key",
+      "A shared symmetric key"
+    ],
+    "a": 0,
+    "e": "The flashcard material identifies the signer's private key as the key used to create a digital signature."
+  },
+  {
+    "q": "What is hashing?",
+    "o": [
+      "A reversible process that recovers the original data",
+      "A deterministic one-way process that produces a fixed-length value",
+      "A method that always uses a public/private key pair",
+      "A method for assigning network permissions"
+    ],
+    "a": 1,
+    "e": "The source describes hashing as deterministic and non-reversible, producing a fixed-length value."
+  },
+  {
+    "q": "Why are passwords generally stored using hashing rather than reversible encryption?",
+    "o": [
+      "Because verification does not require recovering the original password",
+      "Because hashes can always be decrypted with a public key",
+      "Because encryption cannot use keys",
+      "Because hashes are always shorter than passwords"
+    ],
+    "a": 0,
+    "e": "The source emphasizes hashing's one-way nature. A password can be verified without storing a recoverable original."
+  },
+  {
+    "q": "Which CIA triad property focuses on keeping data correct and protected from unauthorized modification?",
+    "o": [
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "Federation"
+    ],
+    "a": 1,
+    "e": "The flashcard material identifies integrity as the CIA triad component concerned with data remaining correct and unmodified."
+  },
+  {
+    "q": "In GRC, what does compliance primarily concern?",
+    "o": [
+      "Making sure operations follow applicable legal, regulatory, and organizational requirements",
+      "Increasing CPU performance",
+      "Replacing authentication with encryption",
+      "Removing all business risk"
+    ],
+    "a": 0,
+    "e": "The source describes compliance as ensuring operations adhere to legal, regulatory, and organizational standards."
+  },
+  {
+    "q": "Which option best describes a vulnerability in the GRC/security context used by the source?",
+    "o": [
+      "A potential harmful event such as ransomware",
+      "A weakness that could be exploited",
+      "A business decision to accept a risk",
+      "A successful authentication"
+    ],
+    "a": 1,
+    "e": "The source supplement defines a vulnerability as a known weakness in an asset or defense system."
+  },
+  {
+    "q": "Which option best describes a threat?",
+    "o": [
+      "A potential external force or event that can cause harm",
+      "A weakness in software",
+      "A directory object",
+      "A cryptographic hash"
+    ],
+    "a": 0,
+    "e": "The source supplement defines a threat as a potential external force or event that can cause harm."
+  },
+  {
+    "q": "Which option best describes risk in the threat/vulnerability model?",
+    "o": [
+      "Only the existence of a vulnerability",
+      "The likelihood of a threat exploiting a vulnerability and causing negative impact",
+      "A successful login",
+      "A type of directory service"
+    ],
+    "a": 1,
+    "e": "The source supplement describes risk as the probability or likelihood of exploitation and resulting negative business impact."
+  }
+]
